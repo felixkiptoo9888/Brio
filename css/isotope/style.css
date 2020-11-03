@@ -1,0 +1,338 @@
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+ul.menu li {
+    display: inline-block;
+    padding: 10px 25px;
+}
+ul.menu li button {
+    padding: 6px 20px;
+}
+.notes {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.grids {
+    margin-top: 20px;
+}
+.grid {
+    margin-top: 10px;
+    color: lightskyblue;
+}
+.grid_date {
+    color: lightskyblue;
+}
+.blue,
+.red,
+.green,
+.black {
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 200px;
+}
+.blue img,
+.red img,
+.green img,
+.black img {
+    height: 200px;
+    width: 100%;
+}
+.yellow img {
+    height: 405px;
+    width: 100%;
+}
+.blue {
+    width: 45%;
+    background: blue;
+}
+.red {
+    width: 30%;
+    background: red;
+}
+.green {
+    width: 30%;
+}
+.yellow {
+    width: 23.6%;
+    height: 405px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: yellow;
+}
+.black {
+    width: 45%;
+}
+.btn_active {
+    background: red;
+    border: 0px;
+    color: #fff;
+    outline: none;
+}
+input#searchNote {
+    width: 100%;
+    padding: 20px 12px;
+    font-style: italic;
+    margin-top: 20px;
+}
+i.custom_search {
+    position: absolute;
+    top: 43px;
+    right: 180px;
+}
+#portfolio_menu button {
+    width: 100px;
+    min-height: 20px;
+    border: 0px;
+    outline: none;
+}
+body {
+    overflow-x: hidden;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+/*resposive*/
+
+@media all and (max-width: 1280px) and (min-width: 768px) {
+    .colum {
+        width: 100%;
+    }
+    ul.menu li {
+        padding: 10px 6px;
+    }
+    .blue,
+    .black {
+        width: 40%;
+    }
+    .red,
+    .green {
+        width: 30%;
+    }
+    .yellow {
+        width: 27%;
+    }
+}
+@media only screen and (max-width: 960px) and (min-width: 620px)  {
+    .colum {
+        width: 100%;
+    }
+    ul.menu li {
+        padding: 10px 30px;
+    }
+    ul.menu {
+        overflow: hidden;
+    }
+    .blue,
+    .black {
+        width: 40%;
+    }
+    .red,
+    .green {
+        width: 30%;
+    }
+    .yellow {
+        width: 27%;
+    }
+}
+@media all  and (max-width: 619px) and (min-width: 480px) {
+    .colum {
+        width: 100%;
+    }
+    ul.menu li {
+        padding: 10px 30px;
+    }
+    ul.menu {
+        overflow: hidden;
+    }
+    .blue,
+    .black {
+        width: 100%;
+    }
+    .red,
+    .green {
+        width: 100%;
+    }
+    .yellow {
+        width: 100%;
+        height: auto;
+    }
+}
+@media all and (max-width: 479px) and (min-width: 320px) {
+    .colum {
+        width: 100%;
+    }
+    ul.menu li {
+        padding: 10px 15px;
+    }
+    ul.menu {
+        overflow: hidden;
+    }
+    ul.menu li button {
+        padding: 6px 0px;
+    }
+    #portfolio button {
+        font-size: 10px;
+        width: 50px;
+    }
+    .blue,
+    .black {
+        width: 100%;
+    }
+    .red,
+    .green {
+        width: 100%;
+    }
+    .yellow {
+        width: 100%;
+        height: auto;
+    }
+}
+@media all and (max-width: 319px) {
+    .colum {
+        width: 100%;
+    }
+    ul.menu li {
+        padding: 10px 15px;
+    }
+    ul.menu {
+        overflow: hidden;
+    }
+    ul.menu li button {
+        padding: 6px 0px;
+    }
+    #portfolio button {
+        font-size: 10px;
+        width: 50px;
+    }
+    .blue,
+    .black {
+        width: 100%;
+        height: auto;
+    }
+    .red,
+    .green {
+        width: 100%;
+        height: auto;
+    }
+    .yellow {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*From Here!!*/
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: -1px;
+  }
+
+/*---------------------------------------
+      MODAL FORM             
+  -----------------------------------------*/
+
+  @media (min-width: 992px) {
+    .modal-dialog {
+      width: 420px;
+    }
+  }
+
+  .modal-open .modal {
+    padding-left: 0 !important;
+  }
+
+  .modal-dialog .modal-content {
+    background: #3e754b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f6f7f4, #3e754b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f6f7f4, #3e754b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    text-align: center;
+    position: relative;
+    padding: 2em;
+  }
+
+  .modal-header, .modal-footer {
+    border-bottom: 0;
+    padding: 0;
+  }
+
+  .modal-dialog .modal-body {
+    padding: 0;
+  }
+
+  .modal-dialog .modal-body a {
+    color: #d9d9d9;
+  }
+
+  .modal .close {
+    color: #999;
+    font-size: 40px;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+    outline: none;
+  }
+
+  .modal-dialog .modal-title {
+    margin-bottom: 20px;
+  }
+
+  .modal-dialog .modal-title h2 {
+    color: #ffffff;
+  }
+
+  .modal-dialog .nav-tabs {
+    display: inline-block;
+  }
+
+  .modal-dialog .nav-tabs > li > a {
+    border: 0;
+    color: #999999;
+    margin-right: 0;
+  }
+
+  .modal-dialog .nav-tabs > li.active > a, 
+  .modal-dialog .nav-tabs > li.active > a:hover, 
+  .modal-dialog .nav-tabs > li.active > a:focus,
+  .modal-dialog .nav>li>a:focus, 
+  .modal-dialog .nav>li>a:hover {
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ce3232;
+  }
+
+  .modal-dialog .tab-content {
+    padding-top: 20px;
+  }
+
+  .modal-dialog form .form-control {
+    border-radius: 5px;
+    border: 1px solid #595959;
+    background: transparent;
+    box-shadow: none;
+    margin: 15px 0 15px 0;
+    height: 50px;
+  }
+
+  .modal-dialog form .form-control:hover,
+  .modal-dialog form .form-control:focus {
+    border-color: #ffffff;
+  }
+
+  .modal-dialog form input[type="submit"] {
+    background: #ce3232;
+    border-color: transparent;
+    border-radius: 100px;
+    color: #ffffff;
+    margin-top: 20px;
+  }
